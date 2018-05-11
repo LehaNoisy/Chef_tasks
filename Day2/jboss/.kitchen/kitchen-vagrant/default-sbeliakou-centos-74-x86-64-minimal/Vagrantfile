@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |c|
+  c.berkshelf.enabled = false if Vagrant.has_plugin?("vagrant-berkshelf")
+  c.vm.box = "sbeliakou/centos-7.4-x86_64-minimal"
+  c.vm.hostname = "default-sbeliakou-centos-74-x86-64-minimal.vagrantup.com"
+  c.vm.network(:forwarded_port, {:guest=>8080, :host=>8088})
+  c.vm.network(:private_network, {:ip=>"10.0.0.20"})
+  c.vm.synced_folder ".", "/vagrant", disabled: true
+  c.vm.provider :virtualbox do |p|
+  end
+end

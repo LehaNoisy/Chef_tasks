@@ -1,0 +1,172 @@
+I, [2018-05-08T23:33:42.324019 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: -----> Converging <default-sbeliakou-centos-74-x86-64-minimal>...
+I, [2018-05-08T23:33:42.324461 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Preparing files for transfer
+I, [2018-05-08T23:33:42.324644 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Preparing dna.json
+I, [2018-05-08T23:33:42.324861 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2018-05-08T23:33:45.802368 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Removing non-cookbook files before transfer
+I, [2018-05-08T23:33:45.805861 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Preparing validation.pem
+I, [2018-05-08T23:33:45.806163 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Preparing client.rb
+I, [2018-05-08T23:33:45.972831 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-05-08T23:33:45.973004 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-05-08T23:33:46.007745 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Trying wget...
+I, [2018-05-08T23:33:46.708809 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Download complete.
+I, [2018-05-08T23:33:46.758817 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: el 7 x86_64
+I, [2018-05-08T23:33:46.758903 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Getting information for chef stable  for el...
+I, [2018-05-08T23:33:46.758934 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2018-05-08T23:33:46.758970 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   to file /tmp/install.sh.3119/metadata.txt
+I, [2018-05-08T23:33:46.759458 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: trying wget...
+I, [2018-05-08T23:33:47.221509 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: sha1	87d25f64b0bc0a190715bbcc13d2971d0a4b5486
+I, [2018-05-08T23:33:47.221600 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: sha256	72bc0973509a73f7d0a6ca9015484b69afef6adf094634598cb341e82d9014d0
+I, [2018-05-08T23:33:47.221627 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: url	https://packages.chef.io/files/stable/chef/14.1.1/el/7/chef-14.1.1-1.el7.x86_64.rpm
+I, [2018-05-08T23:33:47.221784 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: version	14.1.1
+I, [2018-05-08T23:33:47.224433 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: downloaded metadata file looks valid...
+I, [2018-05-08T23:33:47.236484 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: downloading https://packages.chef.io/files/stable/chef/14.1.1/el/7/chef-14.1.1-1.el7.x86_64.rpm
+I, [2018-05-08T23:33:47.236589 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   to file /tmp/install.sh.3119/chef-14.1.1-1.el7.x86_64.rpm
+I, [2018-05-08T23:33:47.237642 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: trying wget...
+I, [2018-05-08T23:46:16.407694 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Comparing checksum with sha256sum...
+I, [2018-05-08T23:46:16.635927 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: 
+I, [2018-05-08T23:46:16.636008 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-05-08T23:46:16.636038 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: 
+I, [2018-05-08T23:46:16.636063 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-05-08T23:46:16.636088 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-05-08T23:46:16.636111 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: be upgraded without warning on new releases, even to new major releases.
+I, [2018-05-08T23:46:16.636144 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-05-08T23:46:16.636169 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: CI/CD environments.
+I, [2018-05-08T23:46:16.636191 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: 
+I, [2018-05-08T23:46:16.636228 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-05-08T23:46:16.636251 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: 
+I, [2018-05-08T23:46:16.636273 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Installing chef 
+I, [2018-05-08T23:46:16.636295 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: installing with rpm...
+I, [2018-05-08T23:46:16.877815 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: warning: /tmp/install.sh.3119/chef-14.1.1-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2018-05-08T23:46:19.367998 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2018-05-08T23:46:19.388057 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Updating / installing...
+I, [2018-05-08T23:46:27.554490 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:    1:chef-14.1.1-1.el7                                                  (  2%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2018-05-08T23:46:28.136701 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Thank you for installing Chef!
+I, [2018-05-08T23:46:28.219988 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Transferring files to <default-sbeliakou-centos-74-x86-64-minimal>
+I, [2018-05-08T23:46:33.317777 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Starting Chef Client, version 14.1.1
+I, [2018-05-08T23:46:35.267055 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Creating a new client identity for default-sbeliakou-centos-74-x86-64-minimal using the validator key.
+I, [2018-05-08T23:46:35.425207 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: resolving cookbooks for run list: ["java::default", "jboss::default"]
+I, [2018-05-08T23:46:35.556982 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Synchronizing Cookbooks:
+I, [2018-05-08T23:46:35.617265 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   - java (2.0.1)
+I, [2018-05-08T23:46:35.645254 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   - jboss (0.1.0)
+I, [2018-05-08T23:46:35.681217 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   - windows (4.2.2)
+I, [2018-05-08T23:46:35.697759 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   - homebrew (5.0.4)
+I, [2018-05-08T23:46:35.697846 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Installing Cookbook Gems:
+I, [2018-05-08T23:46:35.707678 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Compiling Cookbooks...
+I, [2018-05-08T23:46:35.781473 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Converging 12 resources
+I, [2018-05-08T23:46:35.781626 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Recipe: java::notify
+I, [2018-05-08T23:46:35.781669 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * log[jdk-version-changed] action nothing (skipped due to action :nothing)
+I, [2018-05-08T23:46:35.781701 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Recipe: java::openjdk
+I, [2018-05-08T23:47:06.002323 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * yum_package[java-1.6.0-openjdk, java-1.6.0-openjdk-devel] action install
+I, [2018-05-08T23:47:06.002414 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - install version 1:1.6.0.41-1.13.13.1.el7_3.x86_64 of package java-1.6.0-openjdk
+I, [2018-05-08T23:47:06.002445 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - install version 1:1.6.0.41-1.13.13.1.el7_3.x86_64 of package java-1.6.0-openjdk-devel
+I, [2018-05-08T23:47:06.002472 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Recipe: java::notify
+I, [2018-05-08T23:47:06.002506 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * log[jdk-version-changed] action write
+I, [2018-05-08T23:47:06.002534 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   
+I, [2018-05-08T23:47:06.002558 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Recipe: java::openjdk
+I, [2018-05-08T23:47:06.098178 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * java_alternatives[set-java-alternatives] action set
+I, [2018-05-08T23:47:06.178886 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for appletviewer
+I, [2018-05-08T23:47:06.257628 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for apt
+I, [2018-05-08T23:47:06.338252 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for extcheck
+I, [2018-05-08T23:47:06.421771 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for idlj
+I, [2018-05-08T23:47:06.501785 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jar
+I, [2018-05-08T23:47:06.582696 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jarsigner
+I, [2018-05-08T23:47:06.663270 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for java
+I, [2018-05-08T23:47:06.744672 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for javac
+I, [2018-05-08T23:47:06.827085 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for javadoc
+I, [2018-05-08T23:47:06.945466 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for javah
+I, [2018-05-08T23:47:07.030870 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for javap
+I, [2018-05-08T23:47:07.115639 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jconsole
+I, [2018-05-08T23:47:07.199300 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jdb
+I, [2018-05-08T23:47:07.280340 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jhat
+I, [2018-05-08T23:47:07.361394 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jinfo
+I, [2018-05-08T23:47:07.441564 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jmap
+I, [2018-05-08T23:47:07.522557 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jps
+I, [2018-05-08T23:47:07.603306 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jrunscript
+I, [2018-05-08T23:47:07.684503 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jsadebugd
+I, [2018-05-08T23:47:07.764649 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jstack
+I, [2018-05-08T23:47:07.845773 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jstat
+I, [2018-05-08T23:47:07.929064 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for jstatd
+I, [2018-05-08T23:47:08.012141 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for keytool
+I, [2018-05-08T23:47:08.096114 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for native2ascii
+I, [2018-05-08T23:47:08.178304 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for orbd
+I, [2018-05-08T23:47:08.261315 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for pack200
+I, [2018-05-08T23:47:08.344898 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for policytool
+I, [2018-05-08T23:47:08.427798 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for rmic
+I, [2018-05-08T23:47:08.508749 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for rmid
+I, [2018-05-08T23:47:08.590240 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for rmiregistry
+I, [2018-05-08T23:47:08.678344 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for schemagen
+I, [2018-05-08T23:47:08.761473 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for serialver
+I, [2018-05-08T23:47:08.846435 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for servertool
+I, [2018-05-08T23:47:08.918418 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for tnameserv
+I, [2018-05-08T23:47:09.004162 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for unpack200
+I, [2018-05-08T23:47:09.084473 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for wsgen
+I, [2018-05-08T23:47:09.164506 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for wsimport
+I, [2018-05-08T23:47:09.187940 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - Add alternative for xjc
+I, [2018-05-08T23:47:09.188024 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Recipe: java::set_java_home
+I, [2018-05-08T23:47:09.188057 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * directory[/etc/profile.d] action create (up to date)
+I, [2018-05-08T23:47:09.188083 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * template[/etc/profile.d/jdk.sh] action create
+I, [2018-05-08T23:47:09.218794 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - create new file /etc/profile.d/jdk.sh
+I, [2018-05-08T23:47:09.218897 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - update content in file /etc/profile.d/jdk.sh from none to 778ff5
+I, [2018-05-08T23:47:09.218946 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     --- /etc/profile.d/jdk.sh	2018-05-08 21:47:09.122346401 +0100
+I, [2018-05-08T23:47:09.218980 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +++ /etc/profile.d/.chef-jdk20180508-3252-1o4bmob.sh	2018-05-08 21:47:09.122346401 +0100
+I, [2018-05-08T23:47:09.219008 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     @@ -1 +1,2 @@
+I, [2018-05-08T23:47:09.219035 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +export JAVA_HOME=/usr/lib/jvm/java-1.6.0
+I, [2018-05-08T23:47:09.243218 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - change mode from '' to '0755'
+I, [2018-05-08T23:47:09.243306 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Recipe: jboss::default
+I, [2018-05-08T23:47:10.522720 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * yum_package[unzip] action install
+I, [2018-05-08T23:47:10.522794 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - install version 0:6.0-16.el7.x86_64 of package unzip
+I, [2018-05-08T23:47:10.606180 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * linux_user[jboss] action create
+I, [2018-05-08T23:47:10.606259 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - create user jboss
+I, [2018-05-08T23:47:12.536889 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * remote_file[./jboss.zip] action create
+I, [2018-05-08T23:47:13.283144 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 10%
+I, [2018-05-08T23:47:13.810658 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 20%
+I, [2018-05-08T23:47:14.259474 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 30%
+I, [2018-05-08T23:47:14.713398 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 40%
+I, [2018-05-08T23:47:15.166310 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 50%
+I, [2018-05-08T23:47:15.629692 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 60%
+I, [2018-05-08T23:47:16.092286 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 70%
+I, [2018-05-08T23:47:16.522746 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 80%
+I, [2018-05-08T23:47:16.959682 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 90%
+I, [2018-05-08T23:47:17.424223 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:      - Progress: 100%
+I, [2018-05-08T23:47:18.405589 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - create new file ./jboss.zip
+I, [2018-05-08T23:47:18.405677 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - update content in file ./jboss.zip from none to be93bc
+I, [2018-05-08T23:47:18.405712 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     (file sizes exceed 10000000 bytes, diff output suppressed)
+I, [2018-05-08T23:47:21.496751 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * bash[unarchive] action run
+I, [2018-05-08T23:47:21.741311 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - execute "bash"  "/tmp/chef-script20180508-3252-8fdqs3"
+I, [2018-05-08T23:47:21.922557 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * template[/etc/systemd/system/jboss.service] action create
+I, [2018-05-08T23:47:21.922655 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - create new file /etc/systemd/system/jboss.service
+I, [2018-05-08T23:47:21.922702 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - update content in file /etc/systemd/system/jboss.service from none to a1b7cd
+I, [2018-05-08T23:47:21.922742 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     --- /etc/systemd/system/jboss.service	2018-05-08 21:47:21.846709023 +0100
+I, [2018-05-08T23:47:21.922780 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +++ /etc/systemd/system/.chef-jboss20180508-3252-ujiabu.service	2018-05-08 21:47:21.845697949 +0100
+I, [2018-05-08T23:47:21.922818 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     @@ -1 +1,18 @@
+I, [2018-05-08T23:47:21.922853 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +[Unit]
+I, [2018-05-08T23:47:21.922888 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +Description=Jboss Application Server
+I, [2018-05-08T23:47:21.922923 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +After=network.target
+I, [2018-05-08T23:47:21.922956 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +
+I, [2018-05-08T23:47:21.923002 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +[Service]
+I, [2018-05-08T23:47:21.923039 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +Type=forking
+I, [2018-05-08T23:47:21.923072 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +
+I, [2018-05-08T23:47:21.923106 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +User=jboss
+I, [2018-05-08T23:47:21.923139 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +Group=jboss
+I, [2018-05-08T23:47:21.923172 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +ExecStart=/bin/bash -c 'nohup /opt/jboss/bin/run.sh -b 10.0.0.20 &'
+I, [2018-05-08T23:47:21.923208 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +ExecStop=/bin/bash -c 'bin/shutdown.sh -s 10.0.0.20 -u admin'
+I, [2018-05-08T23:47:21.923242 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +TimeoutStartSec=300
+I, [2018-05-08T23:47:21.923276 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +TimeoutStopSec=600
+I, [2018-05-08T23:47:21.923309 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +SuccessExitStatus=143
+I, [2018-05-08T23:47:21.923341 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +
+I, [2018-05-08T23:47:21.923373 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +[Install]
+I, [2018-05-08T23:47:21.923406 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     +WantedBy=multi-user.target
+I, [2018-05-08T23:47:21.923440 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - change mode from '' to '0744'
+I, [2018-05-08T23:47:23.470345 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * service[jboss] action enable
+I, [2018-05-08T23:47:23.470440 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - enable service service[jboss]
+I, [2018-05-08T23:47:23.698300 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * service[jboss] action start
+I, [2018-05-08T23:47:23.698430 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - start service service[jboss]
+I, [2018-05-08T23:47:24.620663 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:   * remote_file[/opt/jboss/server/default/deploy/sample.war] action create
+I, [2018-05-08T23:47:24.632709 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - create new file /opt/jboss/server/default/deploy/sample.war
+I, [2018-05-08T23:47:24.632817 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     - update content in file /opt/jboss/server/default/deploy/sample.war from none to 89b33c
+I, [2018-05-08T23:47:24.632873 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal:     (new content is binary, diff output suppressed)
+I, [2018-05-08T23:47:25.508903 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: 
+I, [2018-05-08T23:47:25.509005 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Running handlers:
+I, [2018-05-08T23:47:25.509051 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Running handlers complete
+I, [2018-05-08T23:47:25.509086 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Chef Client finished, 12/14 resources updated in 52 seconds
+I, [2018-05-08T23:47:25.830867 #30701]  INFO -- default-sbeliakou-centos-74-x86-64-minimal: Finished converging <default-sbeliakou-centos-74-x86-64-minimal> (13m43.51s).
